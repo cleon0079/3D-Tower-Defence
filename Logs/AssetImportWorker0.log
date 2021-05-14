@@ -152,3 +152,4 @@ Received Import Request.
 Start importing Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset using Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d23d1124dd22ee03459853ad4eca15') in 0.004194 seconds
   Import took 0.008138 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
