@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.2.2f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/cleon.huang/3D Tower Defence
+C:/Users/cleon.huang/Documents/GitHub/3D-Tower-Defence
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51144
-Successfully changed project path to: C:/Users/cleon.huang/3D Tower Defence
-C:/Users/cleon.huang/3D Tower Defence
+59784
+Successfully changed project path to: C:/Users/cleon.huang/Documents/GitHub/3D-Tower-Defence
+C:/Users/cleon.huang/Documents/GitHub/3D-Tower-Defence
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/cleon.huang/3D Tower Defence/Assets
+[Subsystems] Discovering subsystems at path C:/Users/cleon.huang/Documents/GitHub/3D-Tower-Defence/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,22 +35,196 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001368 seconds.
+Registered in 0.012369 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 164.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.977 seconds
+- Completed reload, in  3.162 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000693 seconds.
+Registered in 0.002437 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.097 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 56.5 MB.
+System memory in use after: 56.6 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1541.
+Total: 1.986700 ms (FindLiveObjects: 0.241100 ms CreateObjectMapping: 0.068800 ms MarkObjects: 1.585400 ms  DeleteObjects: 0.090100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset
+  artifactKey: Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset using Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ba24b3ea386b011a0d0341ffee8f5') in 0.041796 seconds
+  Import took 0.044548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000560 seconds.
+  path: Assets/3D Tower Defence/Scenes/SampleScene/ReflectionProbe-0.exr
+  artifactKey: Guid(d21738b7f338e6e4ea2f55f3c5c2e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(d21738b7f338e6e4ea2f55f3c5c2e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6de69aea974e0e7fab59ad7dc5f5ae') in 0.275671 seconds
+  Import took 0.278822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/3D Tower Defence/Scenes
+  artifactKey: Guid(3c63d16336f420047a920118e5db0048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scenes using Guid(3c63d16336f420047a920118e5db0048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e44e6c0127abe21b36016c306b97733') in 0.021173 seconds
+  Import took 0.024936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000948 seconds.
+  path: Assets/3D Tower Defence/Scenes/SampleScene
+  artifactKey: Guid(943a951b584711b479446aa19fa3061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scenes/SampleScene using Guid(943a951b584711b479446aa19fa3061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487c2f6ccc449a86f635dc4bd78d63eb') in 0.015000 seconds
+  Import took 0.020764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/3D Tower Defence/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50645aafa7a9ceb14fd14afbcf75ec0c') in 0.016490 seconds
+  Import took 0.021141 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.839 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.8 MB.
+System memory in use after: 59.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1575.
+Total: 2.299700 ms (FindLiveObjects: 0.213400 ms CreateObjectMapping: 0.046500 ms MarkObjects: 2.023200 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1210.039708 seconds.
+  path: Assets/3D Tower Defence/Scripts
+  artifactKey: Guid(cbdaa0eeb1c0c8a49b58b8935b3ebdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts using Guid(cbdaa0eeb1c0c8a49b58b8935b3ebdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb4725645f94c2c86530aaf4cd9976') in 0.012822 seconds
+  Import took 0.015355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005782 seconds.
+  path: Assets/3D Tower Defence/Scripts
+  artifactKey: Guid(cbdaa0eeb1c0c8a49b58b8935b3ebdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts using Guid(cbdaa0eeb1c0c8a49b58b8935b3ebdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fb4725645f94c2c86530aaf4cd9976') in 0.003329 seconds
+  Import took 0.006893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.642778 seconds.
+  path: Assets/3D Tower Defence/Scripts/Wave.cs
+  artifactKey: Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Wave.cs using Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec1eff9e71bf39faca85a48388e0dd14') in 0.016804 seconds
+  Import took 0.020806 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000719 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 59.9 MB.
+System memory in use after: 60.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1578.
+Total: 3.469100 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.087200 ms MarkObjects: 3.080100 ms  DeleteObjects: 0.032200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000743 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1094 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.1 MB.
+System memory in use after: 60.2 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1580.
+Total: 2.338600 ms (FindLiveObjects: 0.130000 ms CreateObjectMapping: 0.047200 ms MarkObjects: 2.142800 ms  DeleteObjects: 0.017500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.791229 seconds.
+  path: Assets/3D Tower Defence/Scripts/Wave.cs
+  artifactKey: Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Wave.cs using Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841e6d9802fee97b659ba10dc39a1a44') in 0.010998 seconds
+  Import took 0.013560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.553646 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemySpawner.cs
+  artifactKey: Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemySpawner.cs using Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc68b664377f39901f5768daa4163b91') in 0.012209 seconds
+  Import took 0.016446 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000740 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
@@ -59,97 +233,422 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.855 seconds
+- Completed reload, in  0.969 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1095 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.2 MB.
+System memory in use after: 60.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1583.
+Total: 2.078000 ms (FindLiveObjects: 0.149200 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.863500 ms  DeleteObjects: 0.016700 ms)
+
 ========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Received Import Request.
+  Time since last request: 723.093352 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemySpawner.cs
+  artifactKey: Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemySpawner.cs using Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe8f41724b5a3c5ee215f822a557f5') in 0.012646 seconds
+  Import took 0.015432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.397336 seconds.
+  path: Assets/3D Tower Defence/Scripts/GameManager.cs
+  artifactKey: Guid(7a1414bbd1d05894c8df7009472835ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/GameManager.cs using Guid(7a1414bbd1d05894c8df7009472835ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b029fcb37c1871caac13bc531dcba0f2') in 0.016099 seconds
+  Import took 0.021329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.740393 seconds.
+  path: Assets/3D Tower Defence/Scripts/Wave.cs
+  artifactKey: Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Wave.cs using Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be9feb351151fdc3ab12cbc919ea835') in 0.025521 seconds
+  Import took 0.029229 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.873 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1586.
+Total: 2.421300 ms (FindLiveObjects: 0.116500 ms CreateObjectMapping: 0.032200 ms MarkObjects: 2.259000 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.805 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.3 MB.
+System memory in use after: 60.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 2.257700 ms (FindLiveObjects: 0.118900 ms CreateObjectMapping: 0.031400 ms MarkObjects: 2.092900 ms  DeleteObjects: 0.013500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 332.685530 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemyMove.cs
+  artifactKey: Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemyMove.cs using Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01f50b9373c1e60c3e0b51a516e7ddf') in 0.007089 seconds
+  Import took 0.010269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.863122 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemySpawner.cs
+  artifactKey: Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemySpawner.cs using Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04969e8aa89df3ed622dbe2b992c6cc') in 0.008073 seconds
+  Import took 0.010856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028928 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemySpawner.cs
+  artifactKey: Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemySpawner.cs using Guid(ce4856d39ae6be04e9ddefbfe8914c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04969e8aa89df3ed622dbe2b992c6cc') in 0.008869 seconds
+  Import took 0.015186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.725309 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemyMove.cs
+  artifactKey: Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemyMove.cs using Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85bd8b8f4f6a9d455cfacc071bb9f97') in 0.004948 seconds
+  Import took 0.008083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.698315 seconds.
+  path: Assets/3D Tower Defence/Scripts/Waypoints.cs
+  artifactKey: Guid(7022089356bad4042810f786922cbd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Waypoints.cs using Guid(7022089356bad4042810f786922cbd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc396c6e4686786344ffbc43147816a9') in 0.018040 seconds
+  Import took 0.021214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.127202 seconds.
+  path: Assets/3D Tower Defence/Scripts/Wave.cs
+  artifactKey: Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Wave.cs using Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2108b5261e9a3651d7beaea861f72197') in 0.024805 seconds
+  Import took 0.030264 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.989 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1098 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.5 MB.
+System memory in use after: 60.6 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 1.970700 ms (FindLiveObjects: 0.155500 ms CreateObjectMapping: 0.033400 ms MarkObjects: 1.642100 ms  DeleteObjects: 0.138500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 3092.181065 seconds.
+  path: Assets/3D Tower Defence/Scripts/Waypoints.cs
+  artifactKey: Guid(7022089356bad4042810f786922cbd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Waypoints.cs using Guid(7022089356bad4042810f786922cbd0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9be8f3fb4ff57cad0f7213b03ebf175') in 0.012015 seconds
+  Import took 0.016160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.765847 seconds.
+  path: Assets/3D Tower Defence/Scripts/CameraMove.cs
+  artifactKey: Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/CameraMove.cs using Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1857bc181a5f165358a503f66c5fc175') in 0.017241 seconds
+  Import took 0.020066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.891142 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemyMove.cs
+  artifactKey: Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemyMove.cs using Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61207ce7c58985c7e150b44f6acb7c9a') in 0.003263 seconds
+  Import took 0.006343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036699 seconds.
+  path: Assets/3D Tower Defence/Scripts/EnemyMove.cs
+  artifactKey: Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/EnemyMove.cs using Guid(2e9dae3e3558c6a49aa123e41ecbbcf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61207ce7c58985c7e150b44f6acb7c9a') in 0.004613 seconds
+  Import took 0.008777 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000691 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.5 MB.
-System memory in use after: 56.5 MB.
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1540.
-Total: 2.102900 ms (FindLiveObjects: 0.203000 ms CreateObjectMapping: 0.087000 ms MarkObjects: 1.678900 ms  DeleteObjects: 0.133000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6e520b92ccfc61bcfa21a7bcab8468') in 0.010807 seconds
-  Import took 0.013721 seconds .
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1595.
+Total: 4.354000 ms (FindLiveObjects: 0.357400 ms CreateObjectMapping: 0.085500 ms MarkObjects: 3.882500 ms  DeleteObjects: 0.025900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.490093 seconds.
-  path: Assets/3D Tower Defence
-  artifactKey: Guid(4bc72e36195072a4e9a3795abf1593dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence using Guid(4bc72e36195072a4e9a3795abf1593dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa57c3cbb2f82f8996775c8bb5a6c1e') in 0.010314 seconds
-  Import took 0.015383 seconds .
+  Time since last request: 55.606133 seconds.
+  path: Assets/3D Tower Defence/Scripts/CameraMove.cs
+  artifactKey: Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/CameraMove.cs using Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f5958694b2682fa971a7b2e1d70875') in 0.011598 seconds
+  Import took 0.017963 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.863 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.6 MB.
+System memory in use after: 60.7 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1597.
+Total: 2.852200 ms (FindLiveObjects: 0.120100 ms CreateObjectMapping: 0.034800 ms MarkObjects: 2.684100 ms  DeleteObjects: 0.012400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.617740 seconds.
-  path: Assets/3D Tower Defence/Scripts
-  artifactKey: Guid(cbdaa0eeb1c0c8a49b58b8935b3ebdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scripts using Guid(cbdaa0eeb1c0c8a49b58b8935b3ebdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b297d23a5c418b54ebb38a56f7f34f47') in 0.011859 seconds
-  Import took 0.015255 seconds .
+  Time since last request: 334.179228 seconds.
+  path: Assets/3D Tower Defence/Scripts/CameraMove.cs
+  artifactKey: Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/CameraMove.cs using Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec6fd7a647e0ec437b2cf338a0596e5') in 0.004496 seconds
+  Import took 0.007027 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000745 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.7 MB.
+System memory in use after: 60.8 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1599.
+Total: 1.794500 ms (FindLiveObjects: 0.137800 ms CreateObjectMapping: 0.031400 ms MarkObjects: 1.609800 ms  DeleteObjects: 0.014400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.188029 seconds.
-  path: Assets/3D Tower Defence/Scenes
-  artifactKey: Guid(3c63d16336f420047a920118e5db0048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scenes using Guid(3c63d16336f420047a920118e5db0048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae93bb60328de3a19cab1304d2df5005') in 0.010339 seconds
-  Import took 0.015972 seconds .
+  Time since last request: 13.713381 seconds.
+  path: Assets/3D Tower Defence/Scripts/CameraMove.cs
+  artifactKey: Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/CameraMove.cs using Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46516de74d0bd326ed616b2a5ac90192') in 0.005005 seconds
+  Import took 0.007239 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000726 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.853 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1099 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.8 MB.
+System memory in use after: 60.9 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1601.
+Total: 2.561800 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.167500 ms MarkObjects: 1.964300 ms  DeleteObjects: 0.018800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.005407 seconds.
-  path: Assets/3D Tower Defence/Scenes
-  artifactKey: Guid(3c63d16336f420047a920118e5db0048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scenes using Guid(3c63d16336f420047a920118e5db0048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae93bb60328de3a19cab1304d2df5005') in 0.003180 seconds
-  Import took 0.005808 seconds .
+  Time since last request: 13.527829 seconds.
+  path: Assets/3D Tower Defence/Scripts/CameraMove.cs
+  artifactKey: Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/CameraMove.cs using Guid(54b7347cfee892846a3e0206b765498e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc672c5c7155115ef5b9fc1297a5791') in 0.012089 seconds
+  Import took 0.016685 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1167.682200 seconds.
-  path: Assets/3D Tower Defence/Material
-  artifactKey: Guid(7b5a57d2593e06f47a9e7585e9d830ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Material using Guid(7b5a57d2593e06f47a9e7585e9d830ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684abe30e99134dcfbadebabab341589') in 0.011956 seconds
-  Import took 0.017054 seconds .
+  Time since last request: 239.299224 seconds.
+  path: Assets/3D Tower Defence/Scripts/TowerData.cs
+  artifactKey: Guid(d01bc242d9c60fb4b81025a26e674245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/TowerData.cs using Guid(d01bc242d9c60fb4b81025a26e674245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3041caaff866f4a22065ec7039f4727') in 0.016124 seconds
+  Import took 0.019191 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4909.241910 seconds.
-  path: Assets/3D Tower Defence/Scenes/SampleScene
-  artifactKey: Guid(943a951b584711b479446aa19fa3061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scenes/SampleScene using Guid(943a951b584711b479446aa19fa3061e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05386bb2d67546deefcea62942cb05f') in 0.016724 seconds
-  Import took 0.019646 seconds .
+  Time since last request: 1.051370 seconds.
+  path: Assets/3D Tower Defence/Scripts/Wave.cs
+  artifactKey: Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Wave.cs using Guid(c55ebfba99cf7a04a8a9461631d05110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f82207e630e09ff80fb9fd695e0251d') in 0.003622 seconds
+  Import took 0.006345 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000748 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.838 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 60.9 MB.
+System memory in use after: 61.0 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1604.
+Total: 2.437500 ms (FindLiveObjects: 0.133600 ms CreateObjectMapping: 0.053900 ms MarkObjects: 2.219500 ms  DeleteObjects: 0.029800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.183831 seconds.
-  path: Assets/3D Tower Defence/Scenes/SampleScene/ReflectionProbe-0.exr
-  artifactKey: Guid(d21738b7f338e6e4ea2f55f3c5c2e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scenes/SampleScene/ReflectionProbe-0.exr using Guid(d21738b7f338e6e4ea2f55f3c5c2e79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8325fb580efbdfe97a2f096cc96dd6d') in 0.255850 seconds
-  Import took 0.258168 seconds .
+  Time since last request: 242.432180 seconds.
+  path: Assets/3D Tower Defence/Scripts/Tower.cs
+  artifactKey: Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Tower.cs using Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1373515e988089cecf1a3ff9083298') in 0.012099 seconds
+  Import took 0.015220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.178221 seconds.
-  path: Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset using Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d23d1124dd22ee03459853ad4eca15') in 0.025422 seconds
-  Import took 0.028638 seconds .
+  Time since last request: 0.363836 seconds.
+  path: Assets/3D Tower Defence/Scripts/TowerData.cs
+  artifactKey: Guid(d01bc242d9c60fb4b81025a26e674245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/TowerData.cs using Guid(d01bc242d9c60fb4b81025a26e674245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fffc40a678759d43b67f7980a61726b') in 0.003025 seconds
+  Import took 0.005740 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.0 MB.
+System memory in use after: 61.1 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 1607.
+Total: 2.572900 ms (FindLiveObjects: 0.122200 ms CreateObjectMapping: 0.033100 ms MarkObjects: 2.388300 ms  DeleteObjects: 0.028300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000642 seconds.
-  path: Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset
-  artifactKey: Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/3D Tower Defence/Scenes/SampleScene/LightingData.asset using Guid(6da6b20c2c28b98478460582e0a53073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54d23d1124dd22ee03459853ad4eca15') in 0.004194 seconds
-  Import took 0.008138 seconds .
+  Time since last request: 65.275096 seconds.
+  path: Assets/3D Tower Defence/Scripts/Tower.cs
+  artifactKey: Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Tower.cs using Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a406ad8f84f4067e41ca6280813b9200') in 0.007300 seconds
+  Import took 0.010601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.680983 seconds.
+  path: Assets/3D Tower Defence/Scripts/Tower.cs
+  artifactKey: Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Tower.cs using Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98229a6641d3448a67d65446c058205e') in 0.004428 seconds
+  Import took 0.010177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 149.947762 seconds.
+  path: Assets/3D Tower Defence/Scripts/Tower.cs
+  artifactKey: Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Tower.cs using Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4219defe7fecfae611fd8e31b295e966') in 0.019843 seconds
+  Import took 0.030567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1183.530990 seconds.
+  path: Assets/3D Tower Defence/Scripts/Tower.cs
+  artifactKey: Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Tower Defence/Scripts/Tower.cs using Guid(b649965baf214504ca18d660ad625e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac58312b6edec81feaa30ac2967a86a') in 0.002809 seconds
+  Import took 0.006225 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -7,13 +7,13 @@ public class EnemySpawner : MonoBehaviour
     public static int enemyAliveCount = 0;
 
     // How many waves and there var
-    public Wave[] waves;
+    [SerializeField] Wave[] waves;
 
     // Position that enemy spawn
-    public Transform start;
+    [SerializeField] Transform start;
 
     // How long in two waves
-    public float waveTime = 1;
+    [SerializeField] float waveTime = 1;
 
     // Start is called before the first frame update
     void Start() => StartCoroutine(SpawnEnemy());

@@ -4,19 +4,19 @@ using UnityEngine;
 public class Tower : MonoBehaviour
 {
     // Attack one time every sec
-    public float attackTime = 1;
+    [SerializeField] float attackTime = 1;
     
     // To time the tower's attack time
-    private float timer = 0;
+    float timer = 0;
 
     // Prefab of the bullet
-    public GameObject bulletPrefab;
+    [SerializeField] GameObject bulletPrefab;
 
     // Where the tower fire
-    public Transform firePosition;
+    [SerializeField] Transform firePosition;
 
     // The head of the tower
-    public Transform towerHead;
+    [SerializeField] Transform towerHead;
 
     // Put the enemys in the list that is in the attack area
     List<GameObject> inRangeEnemys = new List<GameObject>();
@@ -70,6 +70,7 @@ public class Tower : MonoBehaviour
             UpdateEnemys();
         }
     }
+
     void Attack()
     {
         if (inRangeEnemys[0] == null)

@@ -5,10 +5,10 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     // End game UI and text
-    public GameObject endUI;
-    public Text endText;
+    [SerializeField] GameObject endUI;
+    [SerializeField] Text endText;
 
-    private EnemySpawner enemySpawner;
+    EnemySpawner enemySpawner;
 
     public static GameManager instance;
 

@@ -4,19 +4,19 @@ using UnityEngine.UI;
 public class EnemyMove : MonoBehaviour
 {
     // Speed of the enemy
-    public float speed = 10;
+    [SerializeField] float speed = 10;
 
     // Total Hp of the enemy
-    private float totalHp;
+    float totalHp;
 
     // Current Hp of the enemy
-    public float currentHp = 150f;
+    [SerializeField] float currentHp = 150f;
 
     // A slider to show the enemy hp
-    public Slider hpSlider;
+    [SerializeField] Slider hpSlider;
 
     // Array of the waypoint for enemy to move
-    private Transform[] positions;
+    Transform[] positions;
 
 
     void Start()

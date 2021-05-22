@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
@@ -8,7 +6,7 @@ public class TowerData
     public GameObject towerPrefab;
     public int cost;
     public GameObject towerUpgradePrefab;
-    public int costUpgrade;
+    public int upgradeCost;
     public TowerType type;
 }
 
