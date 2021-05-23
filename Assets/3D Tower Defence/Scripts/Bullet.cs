@@ -16,20 +16,24 @@ public class Bullet : MonoBehaviour
 
     public void SetTarget(Transform _target)
     {
+        // Set the target
         target = _target;
     }
 
     void Update()
     {
+        // If there is no target then destroy this bullet and dont run the next line
         if (target == null)
         {
             DestroyThisBullet();
             return;
         }
 
+        // If there is a target then look at the target and move towards the target
         transform.LookAt(target.position);
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
 
+        // If the bullet hits the target then destroy the bullet and do the damage to the enemy
         Vector3 dir = target.position - transform.position;
         if (dir.magnitude < distanceToTarget)
         {
@@ -40,6 +44,7 @@ public class Bullet : MonoBehaviour
 
     void DestroyThisBullet()
     {
-        Destroy(this.gameObject);
+        // destroy the bullet
+        Destroy(this);
     }
 }

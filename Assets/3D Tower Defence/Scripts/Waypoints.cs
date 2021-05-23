@@ -3,7 +3,7 @@ using UnityEngine;
 public class WayPoints : MonoBehaviour
 {
     // Array for the waypoints that enemy move
-    public static Transform[] positions;
+    public Transform[] positions;
 
     void Awake()
     {

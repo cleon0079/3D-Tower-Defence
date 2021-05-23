@@ -9,34 +9,59 @@ public class EnemyMove : MonoBehaviour
     // Total Hp of the enemy
     float totalHp;
 
+    // The num of waypoint we are going
+    int index;
+
     // Current Hp of the enemy
     [SerializeField] float currentHp = 150f;
 
     // A slider to show the enemy hp
     [SerializeField] Slider hpSlider;
 
-    // Array of the waypoint for enemy to move
-    Transform[] positions;
+    // Get witch waypoint
+    GameObject waypoint;
+    
+    // Locat witch enemy it is
+    [SerializeField] int enemyIndex;
 
+    // Array of the waypoint for enemy to move
+    [SerializeField] Transform[] positions;
 
     void Start()
     {
         // Set the total hp as current hp
         totalHp = currentHp;
 
+        // Get the waypoints
+        if(enemyIndex == 1)
+        {
+            waypoint = GameObject.Find("WayPoint01");
+        }
+        if(enemyIndex == 2)
+        {
+            waypoint = GameObject.Find("WayPoint02");
+        }
+        if(enemyIndex == 3)
+        {
+            waypoint = GameObject.Find("WayPoint03");
+        }
+
         // Set the waypoints
-        positions = WayPoints.positions;
+        positions = waypoint.GetComponent<WayPoints>().positions;
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
+        if(GameManager.instance.isLose)
+        {
+            GameObject.Destroy(this.gameObject);
+        }
     }
 
     void Move()
     {
-        int index = 0;
         // If it hits the last waypoint then we lose
         if (index > positions.Length - 1)
         {
@@ -49,7 +74,7 @@ public class EnemyMove : MonoBehaviour
         transform.Translate((positions[index].position - transform.position).normalized * Time.deltaTime * speed);
 
         // If the enemy is closs to the waypoint then we move to the next waypoint
-        if (Vector3.Distance(positions[index].position, transform.position) < 0.2f)
+        if (Vector3.Distance(positions[index].position, transform.position) < 1f)
         {
             index++;
         }
@@ -58,8 +83,8 @@ public class EnemyMove : MonoBehaviour
     void ReachEnd()
     {
         // If the enemy reach the end point then we lose and destroy this enemy
-        GameManager.instance.Lose();
         GameObject.Destroy(this.gameObject);
+        GameManager.instance.Lose();
     }
 
     void OnDestroy()

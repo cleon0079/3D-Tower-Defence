@@ -41,6 +41,7 @@ public class Tower : MonoBehaviour
 
     void Start()
     {
+        // Let the tower hit the target at the frist time
         timer = attackTime;
     }
 
@@ -73,10 +74,13 @@ public class Tower : MonoBehaviour
 
     void Attack()
     {
+        // If there is no more enemys or the list of the enemy didnt update then update the list of in range enemy
         if (inRangeEnemys[0] == null)
         {
             UpdateEnemys();
         }
+
+        // If there is enemy in range then shoot the frist enemy
         if (inRangeEnemys.Count > 0)
         {
             GameObject bullet = GameObject.Instantiate(bulletPrefab, firePosition.position, firePosition.rotation);
@@ -84,6 +88,7 @@ public class Tower : MonoBehaviour
         }
         else
         {
+            // Set the CD back
             timer = attackTime;
         }
     }

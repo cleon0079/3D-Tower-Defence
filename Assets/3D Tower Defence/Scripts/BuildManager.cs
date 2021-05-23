@@ -17,23 +17,22 @@ public class BuildManager : MonoBehaviour
 
     // How many money we have when we start
     [SerializeField] int money = 1000;
-    [SerializeField] Animator moneyAnimator;
     [SerializeField] Text moneyText;
 
     // Upgrades
     [SerializeField] GameObject upgradeCanvas;
     [SerializeField] Button upgradeButton;
-    Animator upgradeCanvasAnim;
-
-    void Start()
-    {
-        upgradeCanvasAnim = upgradeCanvas.GetComponent<Animator>();
-    }
 
     void ChangeMoney(int _change)
     {
         money += _change;
         moneyText.text = "$" + money;
+    }
+
+    private void Start()
+    {
+        // Set the default selected to the frist one
+        selectedTowerOnUI = tower01;
     }
 
     void Update()
@@ -65,11 +64,6 @@ public class BuildManager : MonoBehaviour
                             ChangeMoney(-selectedTowerOnUI.cost);
                             clickedTowerBase.BuildTower(selectedTowerOnUI);
                         }
-                        else
-                        {
-                            // If there is no money then show the anim
-                            moneyAnimator.SetTrigger("Flicker");
-                        }
                     }
                     // If there is a tower on the base
                     else if (clickedTowerBase.towerGameObject != null)
@@ -78,7 +72,7 @@ public class BuildManager : MonoBehaviour
                         if (clickedTowerBase == selectedTowerBase && upgradeCanvas.activeInHierarchy)
                         {
                             // Close the Upgrade canvas
-                            StartCoroutine(CloseUpgradeUI());
+                            upgradeCanvas.SetActive(false);
                         }
                         // If we didnt click this base before then show upgrade UI
                         else
@@ -121,17 +115,11 @@ public class BuildManager : MonoBehaviour
 
     void ShowUpgradeUI(Vector3 _basePosition, bool _isUpgraded = false)
     {
-        // Stop the coroutine so not keep closing the upgrade canvas
-        StopCoroutine(CloseUpgradeUI());
-
-        // Null check
-        upgradeCanvas.SetActive(false);
-
         // Open up the upgrade canvas
         upgradeCanvas.SetActive(true);
 
         // Set the canvas right on top of the towerbase
-        upgradeCanvas.transform.position = _basePosition;
+        upgradeCanvas.transform.position = _basePosition + Vector3.up;
 
         // when we  have upgraded the tower already, then set the upgrade button interactable to false, so we cant click it
         upgradeButton.interactable = !_isUpgraded;
@@ -146,30 +134,15 @@ public class BuildManager : MonoBehaviour
             ChangeMoney(-selectedTowerBase.towerData.upgradeCost);
             selectedTowerBase.UpgradeTower();
         }
-        else
-        {
-            // If we dont have enough money then show the anim
-            moneyAnimator.SetTrigger("Flicker");
-        }
 
-        // Restart the coroutine to close the canvas UI
-        StopCoroutine(CloseUpgradeUI());
-        StartCoroutine(CloseUpgradeUI());
+        // Close the upgrade menu
+        upgradeCanvas.SetActive(false);
     }
 
     public void OnDestoryButtonDown()
     {
-        // If we click destory then destory the button and restart the coroutine to close the canvas UI
+        // If we click destory then destory the button and close the upgrade menu
         selectedTowerBase.DestoryTower();
-        StopCoroutine(CloseUpgradeUI());
-        StartCoroutine(CloseUpgradeUI());
-    }
-
-    IEnumerator CloseUpgradeUI()
-    {
-        // Close the Upgrade UI with anim
-        upgradeCanvasAnim.SetTrigger("Hide");
-        yield return new WaitForSeconds(0.8f);
         upgradeCanvas.SetActive(false);
     }
 }
