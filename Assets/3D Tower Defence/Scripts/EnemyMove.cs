@@ -32,19 +32,10 @@ public class EnemyMove : MonoBehaviour
         // Set the total hp as current hp
         totalHp = currentHp;
 
-        // Get the waypoints
-        if(enemyIndex == 1)
-        {
-            waypoint = GameObject.Find("WayPoint01");
-        }
-        if(enemyIndex == 2)
-        {
-            waypoint = GameObject.Find("WayPoint02");
-        }
-        if(enemyIndex == 3)
-        {
-            waypoint = GameObject.Find("WayPoint03");
-        }
+        WaypointManager waypointManager = FindObjectOfType<WaypointManager>();
+
+        waypoint = waypointManager.wayPoints[enemyIndex].gameObject;
+
 
         // Set the waypoints
         positions = waypoint.GetComponent<WayPoints>().positions;
@@ -56,7 +47,7 @@ public class EnemyMove : MonoBehaviour
         Move();
         if(GameManager.instance.isLose)
         {
-            GameObject.Destroy(this.gameObject);
+            Destroy(this.gameObject);
         }
     }
 
@@ -83,7 +74,7 @@ public class EnemyMove : MonoBehaviour
     void ReachEnd()
     {
         // If the enemy reach the end point then we lose and destroy this enemy
-        GameObject.Destroy(this.gameObject);
+        Destroy(this.gameObject);
         GameManager.instance.Lose();
     }
 

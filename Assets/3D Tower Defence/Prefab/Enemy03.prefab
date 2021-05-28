@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 3387582448937737129}
   - component: {fileID: 4477373474901351781}
   - component: {fileID: 4437999651840798819}
+  - component: {fileID: -3754116140869116522}
   m_Layer: 0
   m_Name: Enemy03
   m_TagString: Enemy
@@ -487,4 +488,21 @@ MonoBehaviour:
   speed: 10
   currentHp: 150
   hpSlider: {fileID: 3567507505741289519}
-  enemyIndex: 3
+  enemyIndex: 2
+  positions: []
+--- !u!54 &-3754116140869116522
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8762884024641137639}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1

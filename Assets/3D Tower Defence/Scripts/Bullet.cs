@@ -37,14 +37,14 @@ public class Bullet : MonoBehaviour
         Vector3 dir = target.position - transform.position;
         if (dir.magnitude < distanceToTarget)
         {
-            target.GetComponent<EnemyMove>().Damage(damage);
             DestroyThisBullet();
+            target.GetComponent<EnemyMove>().Damage(damage);
         }
     }
 
     void DestroyThisBullet()
     {
         // destroy the bullet
-        Destroy(this);
+        Destroy(this.gameObject);
     }
 }

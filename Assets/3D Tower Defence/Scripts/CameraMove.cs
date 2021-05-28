@@ -13,7 +13,7 @@ public class CameraMove : MonoBehaviour
         // Get the control
         float hori = Input.GetAxis("Horizontal");
         float verti = Input.GetAxis("Vertical");
-        float scrollWheel = Input.GetAxis("Mouse ScrollWheel");
+        float scrollWheel = -Input.GetAxis("Mouse ScrollWheel");
 
         // Moving the camera around
         transform.Translate(new Vector3(hori * speed, scrollWheel * mouseSpeed, verti * speed) * Time.deltaTime, Space.World);

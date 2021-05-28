@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Text endText;
 
     // If we have lose or not
-    public bool isLose = false;
+    [System.NonSerialized] public bool isLose = false;
 
     // Get all the enemy spawner to stop spawning enemy when we lose
     [SerializeField] GameObject enemySpawnerGameObject01;
@@ -18,6 +18,11 @@ public class GameManager : MonoBehaviour
     EnemySpawner enemySpawner01;
     EnemySpawner enemySpawner02;
     EnemySpawner enemySpawner03;
+
+    public LayerMask towerBaseMask;
+    Ray ray;
+    RaycastHit hitInfo; 
+    TowerBase lastHit = null;
 
     public static GameManager instance;
 
@@ -36,6 +41,28 @@ public class GameManager : MonoBehaviour
         enemySpawner01 = enemySpawnerGameObject01.GetComponent<EnemySpawner>();
         enemySpawner02 = enemySpawnerGameObject02.GetComponent<EnemySpawner>();
         enemySpawner03 = enemySpawnerGameObject03.GetComponent<EnemySpawner>();
+    }
+
+    void Update()
+    {
+        ChangeTheBaseColor();
+    }
+
+    public void ChangeTheBaseColor()
+    {
+        if (lastHit != null)
+        {
+            lastHit.OutBase();
+            lastHit = null;
+        }
+
+        ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hitInfo, 1000f, towerBaseMask))
+        {
+            TowerBase towerBase = hitInfo.collider.gameObject.GetComponent<TowerBase>();
+            towerBase.OnBase();
+            lastHit = towerBase;
+        }
     }
 
     public void Win()

@@ -58,7 +58,7 @@ public class BuildManager : MonoBehaviour
                     if (selectedTowerOnUI != null && clickedTowerBase.towerGameObject == null)
                     {
                         // We have enough money to build the tower
-                        if (money > selectedTowerOnUI.cost)
+                        if (money >= selectedTowerOnUI.cost)
                         {
                             // We spend the money and build the tower
                             ChangeMoney(-selectedTowerOnUI.cost);

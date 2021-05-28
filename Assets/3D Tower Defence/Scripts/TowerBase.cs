@@ -37,7 +37,7 @@ public class TowerBase : MonoBehaviour
         towerGameObject = GameObject.Instantiate(_towerData.towerPrefab, transform.position, Quaternion.identity);
     }
 
-    void OnMouseEnter()
+    public void OnBase()
     {
         // If we move our mouse on the base and is not on any UI then change the base's color to red
         if (towerGameObject == null && EventSystem.current.IsPointerOverGameObject() == false)
@@ -45,8 +45,8 @@ public class TowerBase : MonoBehaviour
             rend.material.color = Color.red;
         }
     }
-
-    void OnMouseExit()
+ 
+    public void OutBase()
     {
         // If we move our mouse away then change the base's color back to its original
         rend.material.color = originalColor;
